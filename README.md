@@ -35,7 +35,7 @@ The analysis process consists of the following steps:
 This repository contains the following files:
 
 - **Sample Data (202205 divvytrip data)**: A sample dataset showcasing the structure and format of the Cyclistic trip data.
-- **Data Processing Script**: A script that outlines the steps taken to clean and process the raw data for analysis.
+- **Data Processing Documentation**: A Documentation that outlines the steps taken to clean and process the raw data for analysis.
 - **Full Year View Analysis (Microsoft Excel)**: An Excel file containing the detailed analysis and calculations performed on the dataset.
 - **R Script**: An R script that implements the entire analysis process, including data collection, wrangling, cleaning, descriptive analysis, and visualization.
 - **Presentation**: A presentation file summarizing the analysis process, findings, and insights obtained from the data.
