@@ -1,51 +1,66 @@
 # Cyclistic Bike Share Analysis
 
-This project aims to analyze and compare the usage patterns of annual members and casual riders in Cyclistic, a bike-sharing company. The analysis is based on the previous 12 months of Cyclistic trip data from May 2022 to April 2023.
+This project aims to analyze and compare the usage patterns of annual members and casual riders in Cyclistic, a bike-sharing company.
 
 ## Contents
 
 1. [Introduction](#introduction)
 2. [Data](#data)
 3. [Analysis Process](#analysis-process)
-4. [Project Structure](#project-structure)
-5. [Results](#results)
-6. [Presentation](#presentation)
+4. [Tools and Libraries](#tools-and-libraries)
+5. [Project Structure](#project-structure)
+6. [Results](#results)
+7. [Presentation](#presentation)
 
 ## Introduction
 
-Cyclistic is a bike-sharing company that offers its services to both annual members and casual riders. This analysis aims to understand how these two types of users utilize Cyclistic bikes differently. By analyzing the trip data from the previous year, we can gain insights into usage patterns, peak times, trip durations, and more.
+Cyclistic is a bike-sharing company that offers its services to both annual members and casual riders. This analysis aims to understand how these two types of users utilize Cyclistic bikes differently. By analyzing the trip data from the previous year, we can gain insights into usage patterns, peak times, trip durations, and more. Understanding these patterns helps in making informed business decisions, improving service, and tailoring marketing strategies.
 
 ## Data
 
-The dataset used for this analysis is the Cyclistic trip data from May 2022 to April 2023. The data includes information such as trip start/end times, trip duration, user types, and other relevant variables. The dataset used for this analysis is not included in this repository due to its size. Instead, a sample dataset (202205 divvytrip data) has been provided to showcase the data structure.
+The dataset used for this analysis is the Cyclistic trip data, available [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data includes trip start/end times, trip duration, user types, and other relevant variables. For this project, data from 01/05/2022 to 30/04/2023 was used.
+
+### Data Overview
+
+- **Size**: Large, spanning 12 months.
+- **Structure**: Contains columns such as trip_id, start_time, end_time, start_station, end_station, user_type, etc.
+- **Preprocessing**: Data cleaning involved handling missing values, correcting inconsistencies, and standardizing date formats.
 
 ## Analysis Process
 
 The analysis process consists of the following steps:
 
-1. **Data Collection**: Collect the Cyclistic trip data from the previous 12 months.
-2. **Data Wrangling**: Clean and preprocess the data, ensuring it is in a suitable format for analysis.
-3. **Combine Data**: Merge the cleaned data into a single file for further analysis.
-4. **Data Preparation**: Perform additional data cleaning and preparation tasks specific to the analysis.
-5. **Descriptive Analysis**: Conduct exploratory analysis to understand the usage patterns and characteristics of annual members and casual riders.
-6. **Visualization**: Create visualizations to present the findings and insights from the analysis.
+1. **Data Collection**: Collect Cyclistic trip data from the previous 12 months.
+2. **Initial Data Exploration**: Get a sense of the data distribution and basic statistics.
+3. **Data Wrangling**: Clean and preprocess the data, ensuring it is in a suitable format for analysis.
+4. **Combine Data**: Merge the cleaned data into a single file for further analysis.
+5. **Data Preparation**: Perform additional data cleaning and preparation tasks specific to the analysis.
+6. **Descriptive Analysis**: Conduct exploratory analysis to understand the usage patterns and characteristics of annual members and casual riders.
+7. **Visualization**: Create visualizations to present the findings and insights from the analysis.
+
+## Tools and Libraries
+
+- **R**: Data manipulation and visualization using libraries like `dplyr` and `ggplot2`.
+- **Power BI**: Created dynamic files, including a source and dimension date table. The date table is dynamic based on the actual data, so it can adapt to new data.
+- **Excel**: Similar backend as Power BI but with a different dashboard layout.
 
 ## Project Structure
 
 This repository contains the following files:
 
-- **Sample Data (202205 divvytrip data)**: A sample dataset showcasing the structure and format of the Cyclistic trip data.
-- **Data Processing Documentation**: A Documentation that outlines the steps taken to clean and process the raw data for analysis.
-- **Full Year View Analysis (Microsoft Excel)**: An Excel file containing the detailed analysis and calculations performed on the dataset.
-- **R Script**: An R script that implements the entire analysis process, including data collection, wrangling, cleaning, descriptive analysis, and visualization.
-- **Presentation**: A presentation file summarizing the analysis process, findings, and insights obtained from the data.
+- **Data Processing Documentation (data_processing.md)**: Documentation outlining the steps taken to clean and process the raw data for analysis.
+- **Report(Power BI version) (Cyclistic Analysis Dashboard.pbix)**: An Excel file containing detailed analysis and calculations.
+- **Report(Excel version) (Cyclistic Analysis Dashboard (Excel Version).xlsx)**: An Excel file containing detailed analysis and calculations.
+- **R Script (R Script.R)**: An R script implementing the entire analysis process, including data collection, wrangling, cleaning, descriptive analysis, and visualization.
+- **Presentation (presentation.pptx)**: A presentation file summarizing the analysis process, findings, and insights.
 
 ## Results
 
-The analysis of the Cyclistic trip data reveals key differences in the usage patterns between annual members and casual riders. The findings include peak usage hours, trip durations, popular routes, and other insights that provide valuable information for understanding user behavior and informing business decisions.
+The analysis of the Cyclistic trip data reveals key differences in usage patterns between annual members and casual riders. Key findings include:
+
+- **Peak Usage Hours**: Annual members tend to use bikes more during weekdays, while casual riders prefer weekends.
+- **Trip Durations**: Casual riders typically have longer trip durations compared to annual members.
 
 ## Presentation
 
-The presentation file provides a concise overview of the analysis process, along with visualizations and key insights derived from the Cyclistic trip data. It serves as a summary of the project and can be used to present the findings to stakeholders, potential employers, or interested parties.
-
-Please note that the full analysis details and code can be found in the corresponding Excel and R script files.
+The presentation file provides a concise overview of the analysis process, visualizations, and key insights derived from the Cyclistic trip data. It serves as a summary of the project and can be used to present the findings to stakeholders, potential employers, or interested parties.
