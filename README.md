@@ -48,10 +48,10 @@ The analysis process consists of the following steps:
 
 This repository contains the following files:
 
-- **Report(Power BI version) (Cyclistic Analysis Dashboard.pbix)**: An Excel file containing detailed analysis and calculations.
-- **Report(Excel version) (Cyclistic Analysis Dashboard (Excel Version).xlsx)**: An Excel file containing detailed analysis and calculations.
-- **R Script (R Script.R)**: An R script implementing the entire analysis process, including data collection, wrangling, cleaning, descriptive analysis, and visualization.
-- **Presentation (presentation.pptx)**: A presentation file summarizing the analysis process, findings, and insights.
+- **(Cyclistic Analysis Dashboard.pbix)**: An Excel file containing detailed analysis and calculations.
+- **(Cyclistic Analysis Dashboard (Excel Version).xlsx)**: An Excel file containing detailed analysis and calculations.
+- **(R Script.R)**: An R script implementing the entire analysis process, including data collection, wrangling, cleaning, descriptive analysis, and visualization.
+- **(presentation.pptx)**: A presentation file summarizing the analysis process, findings, and insights.
 
 ## Results
 
