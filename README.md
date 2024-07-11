@@ -4,13 +4,18 @@ This project aims to analyze and compare the usage patterns of annual members an
 
 ## Contents
 
-1. [Introduction](#introduction)
-2. [Data](#data)
-3. [Analysis Process](#analysis-process)
-4. [Tools and Libraries](#tools-and-libraries)
-5. [Project Structure](#project-structure)
-6. [Results](#results)
-7. [Presentation](#presentation)
+1. [Dashboard](#Dashboard)
+2. [Introduction](#introduction)
+3. [Data](#data)
+4. [Analysis Process](#analysis-process)
+5. [Tools and Libraries](#tools-and-libraries)
+6. [Project Structure](#project-structure)
+7. [Results](#results)
+8. [Presentation](#presentation)
+
+## Dashboard
+You can view the interactive dashboard by clicking the link below:
+[View Dashboard on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiOThjMjA1YzEtNWY4My00MzE4LWJhMGYtZjAzMWU2Mzc0OGIyIiwidCI6IjI3M2MyNWYwLTRhOGMtNGUzMC1iOGUxLTFjY2Y1YmNlNzIxOCJ9).
 
 ## Introduction
 
